@@ -1,3 +1,0 @@
-jdk: openjdk8
-env:
-  ARTIFACT: 'decentholograms'
