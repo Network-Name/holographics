@@ -74,7 +74,8 @@ public class AnimationManager extends Ticked {
         return string;
     }
 
-    public boolean containsAnimations(@NonNull String string) {
+    public boolean
+    containsAnimations(@NonNull String string) {
         Matcher matcher = ANIMATION_PATTERN.matcher(string);
         return matcher.find() || string.contains("&u");
     }

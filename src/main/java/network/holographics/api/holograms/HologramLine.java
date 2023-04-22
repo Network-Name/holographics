@@ -102,7 +102,7 @@ public class HologramLine extends HologramObject {
     private final @NonNull AtomicDouble offsetZ = new AtomicDouble(0d);
     private double height;
     private @NonNull String content;
-    private String text;
+    private String text = "";
     private HologramItem item;
     private HologramEntity entity;
 
